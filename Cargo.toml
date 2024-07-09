@@ -4,9 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-sui_sdk = { git = "https://github.com/mystenlabs/sui", package = "sui-sdk"}
-sui_keys = { git = "https://github.com/mystenlabs/sui", package = "sui-keys"}
-shared_crypto = { git = "https://github.com/mystenlabs/sui", package = "shared-crypto"}
+sui_sdk = { git = "https://github.com/mystenlabs/sui", branch = "mainnet", package = "sui-sdk"}
+sui_keys = { git = "https://github.com/mystenlabs/sui", branch = "mainnet", package = "sui-keys"}
+shared_crypto = { git = "https://github.com/mystenlabs/sui", branch = "mainnet", package = "shared-crypto"}
 bcs = "0.1.6"
 
 tokio = { version="1", features=["macros"] }

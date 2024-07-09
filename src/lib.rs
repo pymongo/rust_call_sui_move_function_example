@@ -2,7 +2,6 @@ use sui_keys::keystore::{AccountKeystore, InMemKeystore};
 use sui_sdk::types::{
     base_types::{ObjectID, ObjectRef, SequenceNumber},
     crypto::{EncodeDecodeBase64, SuiKeyPair},
-    digests::ObjectDigest,
 };
 
 // let keystore = sui_keys::keystore::FileBasedKeystore::new(&std::path::Path::new("/root/.sui/sui_config/sui.keystore").to_path_buf()).unwrap();
