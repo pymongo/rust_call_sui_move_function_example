@@ -31,7 +31,7 @@ async fn main() {
         .unwrap();
     // let data: Vec<_> = ws.event_api().get_events_stream(filter, None, true).collect().await;
     // println!("{:?}", data);
-    
+
     while let Some(res) = subscribe.next().await {
         let res = res.unwrap();
         println!("{res:?}");
