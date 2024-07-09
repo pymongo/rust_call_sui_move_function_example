@@ -1,5 +1,5 @@
 [package]
-name = "rust_call_sui_move_function_example"
+name = "sui_sdk_example"
 version = "0.1.0"
 edition = "2021"
 
@@ -10,4 +10,5 @@ shared_crypto = { git = "https://github.com/mystenlabs/sui", package = "shared-c
 bcs = "0.1.6"
 
 tokio = { version="1", features=["macros"] }
+futures = { version="0.3", default-features = false }
 serde_json = "1"
